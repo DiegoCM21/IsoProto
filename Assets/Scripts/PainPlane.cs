@@ -16,12 +16,11 @@ public class PainPlane : MonoBehaviour
         
     }
 
-
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Player")
-        {
-            collision.gameObject.GetComponent<PlayerNav>().reduceStrength(2);
-        }
+        //if(collision.gameObject.tag == "Player")
+        //{
+        //    collision.gameObject.GetComponent<PlayerNav>().reduceStrength(2);
+        //}
     }
 }

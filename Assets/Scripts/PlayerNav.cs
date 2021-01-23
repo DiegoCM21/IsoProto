@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+// Script defining a player's movement
 public class PlayerNav : MonoBehaviour
 {
     private Camera cam;
@@ -29,13 +30,4 @@ public class PlayerNav : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
-    {
-        
-    }
-
-    public void reduceStrength(int amount)
-    {
-        stats.strength -= amount;
-    }
 }
