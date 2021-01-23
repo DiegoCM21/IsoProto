@@ -9,7 +9,6 @@ public class PlayerNav : MonoBehaviour
     private Camera cam;
     private NavMeshAgent agent;
     // Start is called before the first frame update
-    public CharStats stats;
     void Start()
     {
         cam = Camera.main;
