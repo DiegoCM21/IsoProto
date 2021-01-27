@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Old movement method that doesn't rely on a NavMesh
+/// </summary>
 public class Personnage : MonoBehaviour
 {
     private Vector3 targetPosition;

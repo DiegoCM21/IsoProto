@@ -1,10 +1,12 @@
 
 public class AttributeModifier
 {
-    public readonly int value;
+    // Value of the modifier
+    public readonly float value;
+    // Type of modifier. Can be additive (+X value) or multiplicative (+ % of value)
     public readonly AttModType modType;
 
-    public AttributeModifier(int val, AttModType mType)
+    public AttributeModifier(float val, AttModType mType)
     {
         this.value = val;
         this.modType = mType;
